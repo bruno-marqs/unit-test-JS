@@ -1,4 +1,4 @@
-const CpfValidator = require('../../../src/utils/cpf-validator');
+const CpfValidator = require('../../src/utils/cpf-validator');
 
 describe('CpfValidator', () => {
     test('should return true if cpf is valid', () => {

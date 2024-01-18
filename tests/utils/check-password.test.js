@@ -1,4 +1,4 @@
-const CheckPassword = require("../../../src/utils/check-password");
+const CheckPassword = require("../../src/utils/check-password");
 
 describe("CheckPassword", () => {
     test("should return true if password and confirmPassword are the same", () => {
